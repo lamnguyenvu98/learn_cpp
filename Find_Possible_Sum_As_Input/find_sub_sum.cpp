@@ -78,14 +78,17 @@ int subsetSumToK(int arr[], int n,
 void countSubsequences(int arr[], int n,
             int output[][50], int k)
 {  
+    int dem = 0;
     int size = subsetSumToK(arr, n, output, k);
      
     for (int i = 0; i < size; i++) {
         for (int j = 1; j <= output[i][0]; j++) {
             cout << output[i][j] << " ";
         }
+        dem++;
         cout << endl;
-    }   
+    }
+    cout << "So subarray co tong bang " << k << "la: " << dem << endl;
 }
  
 // Driver Code
