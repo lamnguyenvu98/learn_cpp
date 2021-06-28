@@ -26,6 +26,8 @@ int main()
 {
 	int arr[] = {4, 5 , 1, 13, 10};
 	int size = sizeof(arr)/sizeof(int);
+	int arr2[] = {1, 0, 1 , 1, 0, 0};
+	int n = sizeof(arr2)/sizeof(int);
 	reverse_array(arr,size);
 	return 0;
 }
