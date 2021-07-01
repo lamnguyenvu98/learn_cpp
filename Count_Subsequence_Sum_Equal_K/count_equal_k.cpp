@@ -42,10 +42,10 @@ int subsetSum(vector<vector<int>>& lol, vector<int>& arr, int i,
 // Driver code
 int main()
 {
-	vector<int> input = { 1, 2, 3, 5, 6};
+	vector<int> input = { 5, 12, 6, 1, 6, 3, 0, 3};
 	vector<vector<int>> lol;
 	vector<int> l;
-	int sum = 6;
+	int sum = 12;
 	//int n = sizeof(arr) / sizeof(arr[0]);
 
 	cout << subsetSum(lol, input, 0, sum, 0, l) << endl;;
